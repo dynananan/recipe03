@@ -11,10 +11,6 @@ background-food{
   padding: 0;
 }
 
-body a{
-
-  text-decoration: none;
-}
 
 
 .navbg{
@@ -127,23 +123,27 @@ nav{
   margin-bottom:40px;
 }
 
+.food-block{
+  display: block;
+  margin-right: 100px;
+  margin-left: 100px;
+}
 
 .food-content{
-  width: 50%;
   height: 300px;
-  text-align: left;
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
+  text-align: left;
 
 }
 .food-material h1 {
-  padding-right: 280px;
+ 
   margin-top:40px;
   font-size:24px;
 }
 .food-material p{
-  padding-right: 325px;
+  
   margin-top:12px;
   margin-bottom:80px;
   font-size:20px;
@@ -152,25 +152,26 @@ nav{
 .food-content h1  {
   margin-top:40px;
   font-size:24px;
-  padding-left: 104px;
+  
 
 }
 .food-content p{
   margin-top:12px;
-  padding-left: 72px;
   margin-bottom:80px;
   font-size:20px;
-  padding-left: 104px;
+  
 }
 .food-material{
-  width: 50%;
+  
   height: 300px;;
-  text-align: center;
   display: inline-block;
   float: right;
   
 }
 
+.clear-fix{
+  clear: both;
+}
 
 .food-main {
 
@@ -203,8 +204,8 @@ nav{
 .line-{
   display: block;
   width:1240px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 100px;
+  margin-right: 100px;
   height:1px;
   color: #707070;
 }
